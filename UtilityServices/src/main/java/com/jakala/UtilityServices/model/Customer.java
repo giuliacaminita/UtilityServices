@@ -60,11 +60,4 @@ public class Customer
 		contract.setCustomer(this);
 		contracts.add(contract);
 	}
-
-	@Override
-	public String toString() {
-		return "Customer [id=" + id + ", name=" + name + ", contracts=" + contracts + "]";
-	}
-	
-	
 }
